@@ -1,0 +1,19 @@
+{
+  "spec": "Set Tooltip",
+  "type": "c",
+  "color": "2",
+  "parameters": [
+    {
+      "name": "view",
+      "type": "view"
+    },
+    {
+      "name": "text",
+      "type": "string"
+    }
+  ],
+  "code": "TooltipCompat.setTooltipText({view}, {text});",
+  "imports": [
+    "androidx.appcompat.widget.TooltipCompat"
+  ]
+}
